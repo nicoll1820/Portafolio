@@ -1,0 +1,40 @@
+{
+    "usuario": {
+      "nombre": "Nicoll Navarro Simanca",
+      "edad": 19
+    },
+    "canciones": [
+      { "titulo": "313", "artista": "Residente, Silvia Pérez Cruz, Penélope Cruz", "url": "https://youtu.be/KymTp7rnTiE" },
+      { "titulo": "Can’t Catch Me Now", "artista": "Olivia Rodrigo", "url": "https://youtu.be/GlM6lcFbLSg" },
+      { "titulo": "Constellations", "artista": "Jade LeMac", "url": "https://youtu.be/ZLkCUhmwLdw" },
+      { "titulo": "Habits", "artista": "Genevieve Stokes", "url": "https://youtu.be/SCjZUxmCK8g" },
+      { "titulo": "Without Me", "artista": "Eminem", "url": "https://youtu.be/YVkUvmDQ3HY" },
+      { "titulo": "I Love You, I'm Sorry", "artista": "Gracie Abrams", "url": "https://youtu.be/jmzAf54Re8A" },
+      { "titulo": "Mockingbird", "artista": "Eminem", "url": "https://youtu.be/S9bCLPwzSC0" },
+      { "titulo": "Runaway", "artista": "Aurora", "url": "https://youtu.be/Fc7XWW_Ehb8" },
+      { "titulo": "Volvería", "artista": "Pablo Alborán", "url": "https://youtu.be/kZvgM9Rd8Kk" },
+      { "titulo": "Machu Picchu", "artista": "Camilo, Evaluna Montaner", "url": "https://youtu.be/iuTtlb2COtc" },
+      { "titulo": "Day I Die", "artista": "Alexander Stewart", "url": "https://youtu.be/GOza36IJuwo" },
+      { "titulo": "Volver", "artista": "Piso 21", "url": "https://youtu.be/IOSz301QrOk" },
+      { "titulo": "Querida Yo", "artista": "Yami Safdie, Camilo", "url": "https://youtu.be/UhkFdlF5Mhw" },
+      { "titulo": "Get You", "artista": "Daniel Caesar", "url": "https://youtu.be/EQWKdwvXh-o" },
+      { "titulo": "Numb", "artista": "XXXTentacion", "url": "https://youtu.be/UumDgfy6guA" },
+      { "titulo": "Nothing Breaks Like a Heart", "artista": "Mark Ronson, Miley Cyrus", "url": "https://youtu.be/kGmJQn3MLQU" }
+    ],
+    "cosasMeGustan": [
+      { "nombre": "Escuchar música", "imagen": "./assets/Imagenes/Musica.png" },
+      { "nombre": "Gatos", "imagen": "./assets/Imagenes/Gato.png" },
+      { "nombre": "Paisajes", "imagen": "./assets/Imagenes/Paisaje.png" },
+      { "nombre": "Aprender datos nuevos", "imagen": "./assets/Imagenes/Datos.png" },
+      { "nombre": "Estar con mi familia", "imagen": "./assets/Imagenes/Familia.png" }
+    ],
+    "cosasNoMeGustan": [
+      { "nombre": "Irrespeto", "imagen": "./assets/Imagenes/Irrespeto.png" },
+      { "nombre": "Multitudes", "imagen": "./assets/Imagenes/Multitud.png" },
+      { "nombre": "Ansiedad", "imagen": "./assets/Imagenes/Ansiedad.png" },
+      { "nombre": "Conflictos", "imagen": "./assets/Imagenes/Conflicto.png" },
+      { "nombre": "Tráfico", "imagen": "./assets/Imagenes/Trafico.png" }
+    ]
+  }
+  
+  

@@ -1,0 +1,51 @@
+<div class="container">
+  <label class="label">Ingrese Nombre</label>
+  <div class="input-container">
+    <button>{{ usuario.nombre }}</button>
+    <button (click)="infoVisible = !infoVisible">R</button>
+  </div>
+</div>
+
+<div *ngIf="infoVisible">
+  <h1>{{ usuario.nombre }}</h1>
+  <h3 class="age">{{ usuario.edad }} años</h3>
+
+  <!-- Aquí aplicamos la clase nueva -->
+  <h3 class="lista-canciones">Lista de canciones</h3>
+  <ul class="song-list">
+    <li *ngFor="let cancion of canciones">
+      {{ cancion.titulo }} - {{ cancion.artista }}
+      <a [href]="cancion.url" target="_blank">
+        <button>▶️</button>
+      </a>
+    </li>
+  </ul>
+
+  <div class="listas-container">
+    <div class="lista">
+      <h3>Cosas que me gustan</h3>
+      <ul>
+        <li *ngFor="let cosa of cosasMeGustan">
+          <img [src]="cosa.imagen" alt="{{ cosa.nombre }}">
+          {{ cosa.nombre }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="lista">
+      <h3>Cosas que NO me gustan</h3>
+      <ul>
+        <li *ngFor="let cosa of cosasNoMeGustan">
+          <img [src]="cosa.imagen" alt="{{ cosa.nombre }}">
+          {{ cosa.nombre }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div *ngIf="errorCarga" class="error">
+    <p>Error al cargar los datos. Intenta nuevamente.</p>
+  </div>
+</div>
+
+
