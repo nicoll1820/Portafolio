@@ -13,9 +13,9 @@ export class AppComponent implements OnInit {
   usuario: any = {};
   canciones: any[] = [];
   cosasMeGustan: any[] = [];
-  cosasNoMeGustan: any[] = []; // Agregado
+  cosasNoMeGustan: any[] = []; 
   infoVisible: boolean = false;
-  errorCarga: boolean = false; // Variable para errores
+  errorCarga: boolean = false; 
 
   ngOnInit() {
     this.cargarDatos();
@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
       this.usuario = data.usuario;
       this.canciones = data.canciones;
       this.cosasMeGustan = data.cosasMeGustan;
-      this.cosasNoMeGustan = data.cosasNoMeGustan; // Agregado
+      this.cosasNoMeGustan = data.cosasNoMeGustan; 
     } catch (error) {
       console.error('Error al cargar el JSON:', error);
       this.errorCarga = true;
